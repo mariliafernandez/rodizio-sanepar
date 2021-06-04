@@ -68,14 +68,3 @@ def check_dates(rua, cep=None, bairro=None):
   
   return result_inicio, result_volta
   
-
-
-if __name__ == '__main__':
-
-  cep = '82560---'
-  rua = 'Vicente Ciccarino'
-  
-  inicio, volta = check_dates(rua, cep)
-
-  print(inicio)
-  print(volta)
